@@ -1,5 +1,5 @@
 ---
-title: 'This is an exemplary article for the blog.'
+title: 'Hello world'
 description: 'This description will be used for the article listing and search results on Google.'
 date: '2021-05-28'
 banner:
@@ -8,8 +8,7 @@ banner:
   caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
 categories:
   - 'Setup'
-  - 'Tutorial'
-  - 'Gatsby'
+  - 'Hello world'
 keywords:
   - 'Example'
   - 'Gatsby'
