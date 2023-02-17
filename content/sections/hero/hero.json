@@ -1,22 +1,22 @@
 {
   "intro": "Hej",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
-    "alt": "My Photo"
+    "src": "../../images/waving-hand.png",
+    "alt": "Alfio Perino"
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm Alfio Perino",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
-    "suffix": "."
+    "prefix": "I am passionate about ",
+    "highlight": "assembling ",
+    "suffix": "the bridge between function and beauty in web development, and creating custom web solutions that seamlessly blend form and function to deliver exceptional user experiences."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "A Personal Blog Project to share some toughts.",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "from": ["LinkedIn", "Medium", "Mail"],
     "showIcons": false
   }
 }

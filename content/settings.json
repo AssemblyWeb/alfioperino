@@ -1,34 +1,34 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
+    "siteUrl": "https://AlfioPerino.com/",
+    "title": "Alfio Perino - Personal Blog",
+    "titleTemplate": "%s · Personal Blog",
+    "description": "Assembling the bridge between function and beauty in web development.",
+    "author": "Alfio Perino",
     "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "bio": "My BIO.",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "behance": "",
+      "github": "https://github.com/assemblyweb",
+      "medium": "",
+      "linkedin": "https://www.linkedin.com/in/alfio-perino/",
+      "mail": "mailto:alfio@assemblyweb.net"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "Alfio Perino" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "", "url": "" },
+        { "label": "", "url": "" },
+        { "label": "", "url": "" },
+        { "label": "About", "url": "/#about" }
       ],
       "ctaButton": {
-        "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
+        "openNewTab": false,
+        "label": "Blog",
+        "url": "/blog"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
@@ -37,8 +37,8 @@
     },
     "featureToggles": {
       "useDarkModeAsDefault": false,
-      "useDarkModeBasedOnUsersPreference": true,
-      "useCookieBar": false
+      "useDarkModeBasedOnUsersPreference": false,
+      "useCookieBar": true
     }
   }
 }
