@@ -3,14 +3,14 @@
     {
       "label": "React",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "../../images/react.png",
         "alt": ""
       }
     },
     {
       "label": "TypeScript",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/typescript.png",
         "alt": ""
       }
     },
@@ -24,28 +24,35 @@
     {
       "label": "Node.js",
       "image": {
-        "src": "../../images/medium.png",
+        "src": "../../images/nodejs.png",
         "alt": ""
       }
     },
     {
       "label": "MongoDB",
       "image": {
-        "src": "../../images/gem-stone.png",
+        "src": "../../images/mongo.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "WordPress",
+      "image": {
+        "src": "../../images/wordpress.png",
         "alt": ""
       }
     },
     {
       "label": "OpenShift",
       "image": {
-        "src": "../../images/mobile-phone.png",
+        "src": "../../images/openshift.png",
         "alt": ""
       }
     },
     {
       "label": "Figma",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "../../images/figma.png",
         "alt": ""
       }
     },
@@ -59,22 +66,22 @@
     {
       "label": "SASS",
       "image": {
-        "src": "../../images/gatsby.png",
+        "src": "../../images/sass.png",
         "alt": ""
       }
     },
     {
       "label": "Agile development methodologies",
       "image": {
-        "src": "../../images/gatsby.png",
+        "src": "../../images/rocket.png",
         "alt": ""
       }
     },
     {
       "label": "Collaboration and teamwork",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/handshake.png",
+        "alt": "handshake"
       }
     }
   ],
