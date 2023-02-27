@@ -2,10 +2,10 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "🏗️ For companies and startups",
+      "title": "Full stack developer",
+      "description": "To me, programming is all about transforming ideas into tangible products. That's why I began learning web development while working as a UI/UX. Now, I'm a developer who specializes in supporting startups and companies, creating modern front-end applications and contributing to product development. So if you are looking for a hands-on developer who cares about users and code and who enjoys getting involved, let's work together!",
+      "tags": ["Fullstack", "Frontend", "Web development"],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
         "alt": "Quick Setup",
@@ -13,36 +13,36 @@
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "type": "linkedin",
+          "url": "https://www.linkedin.com/in/alfio-perino/"
         },
         {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "type": "mail",
+          "url": "mailto: alfio@assemblyweb.net"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "🧍 For individuals",
+      "title": "Transform your ideas into reality",
+      "description": "Just starting out with your product or website plans? I'd love to partner with you on planning, executing, and launching your ideas. For over 7 years, I have been creating websites from the ground up, molding clients' ideas into a web-friendly format that helps them connect with their target audience effectively.",
+      "tags": ["Custom design", "Easy-2-Use", "Self-managing site"],
       "image": {
         "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
         "alt": "Extendable Layout"
       },
       "links": [
         {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "type": "external",
+          "url": "https://assemblyweb.net"
         }
       ]
     }
   ],
   "button": {
     "visible": true,
-    "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "label": "Know More About",
+    "url": "https://assemblyweb.net"
   }
 }
