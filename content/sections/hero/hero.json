@@ -1,5 +1,5 @@
 {
-  "intro": "Hej",
+  "intro": "Ciao",
   "heroPhoto": {
     "src": "../../images/waving-hand.png",
     "alt": "Alfio Perino"
@@ -10,11 +10,11 @@
   },
   "title": "I'm Alfio Perino",
   "subtitle": {
-    "prefix": "I am passionate about ",
-    "highlight": "assembling ",
-    "suffix": "the bridge between function and beauty in web development, and creating custom web solutions that seamlessly blend form and function to deliver exceptional user experiences."
+    "prefix": "I create custom web solutions bridging function and beauty in web development.",
+    "highlight": "",
+    "suffix": ""
   },
-  "description": "A Personal Blog Project to share some toughts.",
+  "description": "And this is my personal blog project where I share my thoughts and ideas.",
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Mail"],
     "showIcons": false
