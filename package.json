@@ -13,9 +13,11 @@
   },
   "dependencies": {
     "gatsby": "^5.0.1",
+    "gatsby-plugin-sass": "^6.7.0",
     "gatsby-theme-portfolio-minimal": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.58.3"
   },
   "author": "Konstantin Münster <mail@konstantin.digital>",
   "license": "0BSD",

@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: [
+  plugins: [`gatsby-plugin-sass`,
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {

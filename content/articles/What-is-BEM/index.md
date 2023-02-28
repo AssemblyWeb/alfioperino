@@ -44,11 +44,11 @@ Of course, like any methodology, BEM has its limitations and drawbacks. For exam
 
 In this example, we have a block that we are going to call "block" that contains a title, text, and a button.
 
-![BEM](../../images/articles/bem_box.png)
+<img src="../../images/articles/bem_box.png" alt="box example" class="article__image"/> 
 
 The BEM methodology is used to organize the CSS code by creating block-level selectors (.block) and element-level selectors (.block__title, .block__text, and .block__button). We can also create modifiers by adding a double dash (--) to the end of the class name (.block__button--primary, .block__button--secondary).
 
-```html 
+``` html 
 <div class="block">
   <h2 class="block__title">Let's learn BEM!</h2>
   <p class="block__text">Write CSS like a pro!</p>
@@ -58,7 +58,7 @@ The BEM methodology is used to organize the CSS code by creating block-level sel
 
 By using the BEM methodology, we can keep our CSS code organized, maintainable, and reusable:
 
-```css 
+``` css 
 .block {
   padding: 20px;
   background-color: #f7f7f7;
@@ -97,5 +97,6 @@ By using the BEM methodology, we can keep our CSS code organized, maintainable, 
 }
 ```
 
-<u><a class="link" href="https://codepen.io/alfioperino/pen/vYzgeNO" target="_blanck">You can interact with the code in Codepen</a></u>
+<u><a class="link" href="https://codepen.io/alfioperino/pen/vYzgeNO" target="_blank">You can interact with the code in Codepen</a></u>
+<!-- <a class="link" href="https://codepen.io/alfioperino/pen/vYzgeNO" target="_blank">You can interact with the code in Codepen</a> -->
 

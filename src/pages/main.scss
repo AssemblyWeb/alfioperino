@@ -1,0 +1,11 @@
+.link{
+    box-shadow: inset 0 -0.5em 0 #0d6efd;
+    transition: all ease 0.3s;
+    &:hover {
+        box-shadow: inset 0 -2em 0 #0d6efd;
+        color: white;
+    }
+}
+.gatsby-resp-image-wrapper, .gatsby-resp-image-background-image {
+    overflow-y: visible;
+}
