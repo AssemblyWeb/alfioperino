@@ -1,10 +1,10 @@
 {
   "name": "Alfio Perino",
   "email": "alfio@assemblyweb.net",
-  "description": "User Interface Designer & Developer.",
+  "description": "Hit me up anytime and I'll get back to you ASAP",
   "image": {
-    "src": "../../images/favicon.png",
-    "alt": "Gatsby Logo"
+    "src": "../../images/alfioperino.jpg",
+    "alt": "Alfio Perino"
   },
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],
