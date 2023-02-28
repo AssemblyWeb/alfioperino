@@ -6,8 +6,8 @@
     "titleTemplate": "%s · Personal Blog",
     "description": "Assembling the bridge between function and beauty in web development.",
     "author": "Alfio Perino",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "My BIO.",
+    "avatar": "../content/images/alfioperino.jpg",
+    "bio": "Web Developer - UI/UX Designer",
     "social": {
       "behance": "",
       "github": "https://github.com/assemblyweb",
@@ -38,7 +38,7 @@
     "featureToggles": {
       "useDarkModeAsDefault": false,
       "useDarkModeBasedOnUsersPreference": false,
-      "useCookieBar": true
+      "useCookieBar": false
     }
   }
 }

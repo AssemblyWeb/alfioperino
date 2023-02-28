@@ -1,5 +1,5 @@
 ---
-title: 'What is a Proxy?'
+title: 'What Is a Proxy?'
 description: 'A proxy is a server that acts as a middleman between a client and a destination server.'
 date: '2023-02-17'
 banner:

@@ -1,11 +1,11 @@
 ---
-title: 'What is BEM?'
+title: 'BEM: How to Write Better, More Scalable CSS'
 description: 'Learn how BEM methodology simplifies CSS coding for better collaboration.'
 date: '2023-02-27'
 banner:
-  src: '../../images/articles/bem_box.jpg'
+  src: '../../images/articles/css_cover.jpg'
   alt: 'Bem methodology'
-  caption: ''
+  caption: 'Photo by <u>Alfio Perino</u>'
 categories:
   - 'Frontend Development'
   - 'Web Development'
@@ -97,6 +97,5 @@ By using the BEM methodology, we can keep our CSS code organized, maintainable, 
 }
 ```
 
-<u><a class="link" href="https://codepen.io/alfioperino/pen/vYzgeNO" target="_blank">You can interact with the code in Codepen</a></u>
-<!-- <a class="link" href="https://codepen.io/alfioperino/pen/vYzgeNO" target="_blank">You can interact with the code in Codepen</a> -->
+<a class="link" href="https://codepen.io/alfioperino/pen/vYzgeNO" target="_blank">You can interact with the code in Codepen</a>
 
