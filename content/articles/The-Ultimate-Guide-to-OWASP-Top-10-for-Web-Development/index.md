@@ -67,28 +67,24 @@ function checkAdminRole(req, res, next) {
 
 In this example, a middleware function called checkAdminRole is used to check if the user role is 'admin' before granting access to the admin dashboard. This approach is more secure because the user cannot modify their role on the client-side, and the check is done on the server-side.
 
-## A01:2021-Cryptographic failures
+## A02:2021-Cryptographic failures
 
-## What are the benefits?
+So, basically, when we talk about cryptographic failures, we're referring to any issues or weaknesses in the way that encryption and decryption processes are implemented in a web application. These processes are supposed to help protect sensitive information from unauthorized access by making it unreadable to anyone who doesn't have the appropriate decryption keys.
 
-There are several benefits of using a proxy server:
+However, if the encryption and decryption processes are implemented incorrectly, or if weak or outdated cryptographic algorithms are used, then it becomes possible for attackers to exploit these weaknesses and gain access to sensitive information. This can lead to serious consequences such as data breaches, identity theft, and financial losses.
 
-Improved Security: A proxy server can act as a firewall, providing an extra layer of protection for your network by intercepting incoming traffic and blocking potentially malicious requests. It can also be used to mask your IP address and encrypt your internet traffic, making it more difficult for others to intercept or spy on your online activity.
+Some common examples of cryptographic failures include weak or easily guessable encryption keys, failure to properly authenticate or verify users' identities, and the use of outdated or insecure encryption algorithms.
 
-Anonymity: A proxy server can help you maintain your privacy and anonymity online by masking your IP address and other identifying information, which can be used to track your online activity.
+To avoid these types of issues, it's important for developers to stay up-to-date on the latest best practices and standards for cryptography, and to carefully review and test all cryptographic implementations in their web applications. By doing so, we can help ensure that our applications are as secure as possible and that sensitive information is protected from unauthorized access.
 
-Faster Internet: A proxy server can cache frequently accessed websites and files, which can reduce the amount of data that needs to be downloaded from the internet. This can lead to faster load times and better performance, especially for users with slow internet connections.
+## A03-2021:Injection
 
-Content Filtering: A proxy server can be used to block or filter specific types of internet traffic, such as websites, email or instant messaging services, which can help organizations control access to certain types of content and prevent unwanted traffic.
+Injection attacks occur when an attacker is able to inject untrusted data into a web application, which can then be interpreted as code and executed by the application's back-end server.
 
-Access Control: A proxy server can be used to restrict access to specific websites or resources, making it easier to manage and control access to certain parts of the internet. This can be useful for organizations that need to restrict access to certain websites or services for security or productivity reasons.
+The most common type of injection attack is SQL injection, which involves injecting SQL code into a form field or URL parameter. If the web application does not properly validate or sanitize this input, the attacker can execute arbitrary SQL commands on the back-end database, which can result in data theft or even complete loss of data.
+s
+Other types of injection attacks include LDAP injection, XML injection, and command injection, all of which can have similarly devastating effects if left unchecked.
 
-Overall, a proxy server can be a powerful tool for improving security, privacy, and performance on the internet, while also providing greater control over internet traffic and access to specific resources.
+To prevent injection attacks, it's important to validate and sanitize all user input, and to use prepared statements or parameterized queries when executing database or other back-end commands. This can help ensure that any injected data is treated as data rather than code, and cannot be executed by the application's back-end server.
 
-## Proxy Vs VPN
-
-Proxies are generally faster than VPNs, but may not provide the same level of security or privacy.
-
-VPN (Virtual Private Network) creates a secure, encrypted connection between a client and a remote server. VPNs provide both privacy and security by encrypting all internet traffic between a client and a remote server, making it more difficult for others to intercept or spy on the traffic.
-
-In summary, both proxies and VPNs can be used to hide a client's IP address and location, but VPNs provide a higher level of security and privacy by encrypting all internet traffic between a client and a remote server. Proxies are generally faster and can be configured on a per-application or per-browser basis, while VPNs are slower but provide more comprehensive protection for all internet traffic.
+## A04-2021: Insecure Design
