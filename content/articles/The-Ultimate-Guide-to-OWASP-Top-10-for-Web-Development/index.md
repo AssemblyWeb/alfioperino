@@ -82,9 +82,17 @@ To avoid these types of issues, it's important for developers to stay up-to-date
 Injection attacks occur when an attacker is able to inject untrusted data into a web application, which can then be interpreted as code and executed by the application's back-end server.
 
 The most common type of injection attack is SQL injection, which involves injecting SQL code into a form field or URL parameter. If the web application does not properly validate or sanitize this input, the attacker can execute arbitrary SQL commands on the back-end database, which can result in data theft or even complete loss of data.
-s
+
 Other types of injection attacks include LDAP injection, XML injection, and command injection, all of which can have similarly devastating effects if left unchecked.
 
 To prevent injection attacks, it's important to validate and sanitize all user input, and to use prepared statements or parameterized queries when executing database or other back-end commands. This can help ensure that any injected data is treated as data rather than code, and cannot be executed by the application's back-end server.
 
 ## A04-2021: Insecure Design
+
+Insecure Design refers to the architecture flaws that are introduced into an application due to poor design choices. 
+
+Taking the time to create a strong foundation for your application can prevent vulnerabilities from arising and ensure that your business is protected from potential threats. By focusing on creating a secure  reference architecture using template solutions to combine the software you are going to use.
+
+Insecure design flaws can pose a significant risk to a web application's security, and they cannot be fixed through implementation alone.
+
+Managing controls and restricting permissions is crucial in ensuring the security of web applications. It is important to follow the principle of least privilege, which means granting users only the permissions necessary to perform their tasks and nothing more. This can help prevent potential attacks such as privilege escalation or unauthorized access to sensitive data. In addition, it is important to regularly review and update the permissions and access controls to ensure that they remain appropriate and effective. This includes regularly removing unnecessary permissions and revoking access for users who no longer require it. 
