@@ -96,3 +96,6 @@ Taking the time to create a strong foundation for your application can prevent v
 Insecure design flaws can pose a significant risk to a web application's security, and they cannot be fixed through implementation alone.
 
 Managing controls and restricting permissions is crucial in ensuring the security of web applications. It is important to follow the principle of least privilege, which means granting users only the permissions necessary to perform their tasks and nothing more. This can help prevent potential attacks such as privilege escalation or unauthorized access to sensitive data. In addition, it is important to regularly review and update the permissions and access controls to ensure that they remain appropriate and effective. This includes regularly removing unnecessary permissions and revoking access for users who no longer require it. 
+
+## A05-2021: Security Misconfiguration
+
