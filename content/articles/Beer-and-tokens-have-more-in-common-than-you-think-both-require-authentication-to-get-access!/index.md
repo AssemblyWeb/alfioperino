@@ -1,6 +1,6 @@
 ---
-title: '"Beer and tokens have more in common than you think: both require authentication to get access!'
-description: 'Ever wonder how authentication tokens work for APIs? Just like a bartender checking your ID before serving you a beer, APIs require authentication too. In this post, we'll explore the difference between basic and bearer tokens, and how they can help secure your API requests.'
+title: 'Beer and tokens have more in common than you think: both require authentication to get access!'
+description: "Ever wonder how authentication tokens work for APIs? Just like a bartender checking your ID before serving you a beer, APIs require authentication too. In this post, we'll explore the difference between basic and bearer tokens, and how they can help secure your API requests."
 date: '2023-03-10'
 banner:
   src: '../../images/server.jpg'
