@@ -89,6 +89,8 @@ To prevent injection attacks, it's important to validate and sanitize all user i
 
 ## A04-2021: Insecure Design
 
+Insecure Design refers to the architecture flaws that are introduced into an application due to poor design choices.
+
 Avoiding architectural flaws is crucial in developing secure and reliable web applications because they can lead to vulnerabilities and weaknesses in the system's foundation, making it difficult to maintain security even with a well-implemented codebase.
 
 The difference between Design and Implementation is critical to understand - a good implementation cannot fix a bad Design. No matter how well the code is written, if the architectural design is flawed, it can introduce security risks that are hard to rectify later in the development process and could lead to a Business risk.
