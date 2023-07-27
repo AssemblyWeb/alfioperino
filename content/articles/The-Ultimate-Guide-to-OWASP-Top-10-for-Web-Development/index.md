@@ -87,7 +87,7 @@ Other types of injection attacks include LDAP injection, XML injection, and comm
 
 To prevent injection attacks, it's important to validate and sanitize all user input, and to use prepared statements or parameterized queries when executing database or other back-end commands. This can help ensure that any injected data is treated as data rather than code, and cannot be executed by the application's back-end server.
 
-## A04-2021: Insecure Design
+## A04-2021:Insecure Design
 
 Insecure Design refers to the architecture flaws that are introduced into an application due to poor design choices.
 
@@ -100,3 +100,5 @@ To ensure a secure web application, follow these steps:
 - Apply well-known reference pattern architecture, leveraging proven design patterns that align with security principles. I check on <a href="https://refactoring.guru/design-patterns/catalog" target="_blank">refactoring.guru</a> about patterns with code examples also in TypeScript.
 - Thoroughly check the level of control offered by the Framework you are using, ensuring it aligns with your security requirements. <sup>Always read the documentation!</sup>
 - Design using Privilege Separation, implementing role-based access control and limiting access to sensitive resources.
+
+## A05-2021:Security Misconfiguration
