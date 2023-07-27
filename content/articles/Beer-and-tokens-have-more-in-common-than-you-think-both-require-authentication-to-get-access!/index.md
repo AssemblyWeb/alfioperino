@@ -44,4 +44,4 @@ One of the main benefits of using a bearer token is that it does not require the
 
 In summary, the main difference between a basic token and a bgitearer token is the way they are transmitted and verified. While a basic token requires the transmission of sensitive authentication information, a bearer token provides a more secure and efficient way to authenticate API requests.
 
-https://stackoverflow.com/questions/34013299/web-api-authentication-basic-vs-bearer
+Source of investigation: <a href="https://stackoverflow.com/questions/34013299/web-api-authentication-basic-vs-bearer" target="_blank">stackoverflow</a>
