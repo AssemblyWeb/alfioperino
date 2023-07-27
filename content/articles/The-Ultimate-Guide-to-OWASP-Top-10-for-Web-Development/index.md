@@ -82,9 +82,19 @@ To avoid these types of issues, it's important for developers to stay up-to-date
 Injection attacks occur when an attacker is able to inject untrusted data into a web application, which can then be interpreted as code and executed by the application's back-end server.
 
 The most common type of injection attack is SQL injection, which involves injecting SQL code into a form field or URL parameter. If the web application does not properly validate or sanitize this input, the attacker can execute arbitrary SQL commands on the back-end database, which can result in data theft or even complete loss of data.
-s
+
 Other types of injection attacks include LDAP injection, XML injection, and command injection, all of which can have similarly devastating effects if left unchecked.
 
 To prevent injection attacks, it's important to validate and sanitize all user input, and to use prepared statements or parameterized queries when executing database or other back-end commands. This can help ensure that any injected data is treated as data rather than code, and cannot be executed by the application's back-end server.
 
 ## A04-2021: Insecure Design
+
+Avoiding architectural flaws is crucial in developing secure and reliable web applications because they can lead to vulnerabilities and weaknesses in the system's foundation, making it difficult to maintain security even with a well-implemented codebase.
+
+The difference between Design and Implementation is critical to understand - a good implementation cannot fix a bad Design. No matter how well the code is written, if the architectural design is flawed, it can introduce security risks that are hard to rectify later in the development process and could lead to a Business risk.
+
+To ensure a secure web application, follow these steps:
+
+- Apply well-known reference pattern architecture, leveraging proven design patterns that align with security principles. I check on <a href="https://refactoring.guru/design-patterns/catalog" target="_blank">refactoring.guru</a> about patterns with code examples also in TypeScript.
+- Thoroughly check the level of control offered by the Framework you are using, ensuring it aligns with your security requirements. <sup>Always read the documentation!</sup>
+- Design using Privilege Separation, implementing role-based access control and limiting access to sensitive resources.
