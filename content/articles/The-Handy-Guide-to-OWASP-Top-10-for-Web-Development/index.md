@@ -1,11 +1,11 @@
 ---
-title: 'The Ultimate Guide to OWASP Top 10 for Web Development'
-description: "'The Ultimate Guide to OWASP Top 10 for Web Development' is a comprehensive resource for developers looking to secure their web applications against the most common security threats. This guide covers the top 10 vulnerabilities identified by OWASP, providing in-depth explanations and practical tips for mitigating each risk. Whether you're a seasoned developer or just starting out, this guide will help you build more secure web applications and protect your users' data."
+title: 'The Handy Guide to OWASP Top 10 for Web Development'
+description: "'The Handy Guide to OWASP Top 10 for Web Development' is a comprehensive resource made by me for developers looking to secure their web applications against the most common security threats. This guide covers the top 10 vulnerabilities identified by OWASP, providing simple explanations and practical tips for mitigating each risk. Whether you're a seasoned developer or just starting out, this guide will help you build more secure web applications and protect your users data."
 date: '2023-03-15'
 banner:
-  src: '../../images/server.jpg'
-  alt: ''
-  caption: 'Photo by <u><a href="https://unsplash.com/photos/40XgDxBfYXM">Jordan Harrison</a></u>'
+  src: '../../images/articles/the-handy-guide-to-owasp-for-web-development/the-handy-guide-to-owasp-for-web-development.png'
+  alt: 'The Handy Guide to OWASP Top 10 for Web Development'
+  caption: ''
 categories:
   - 'Web Development'
   - 'Cybersecurity'
@@ -23,6 +23,8 @@ keywords:
 
 The OWASP Top 10 is a standard that developers and web security experts use to understand the most critical risks that web applications face. It's sort of like a cheat sheet for web security. It's really useful for making sure that your web application is secure and doesn't have any major vulnerabilities.
 
+<img src="../../images/articles/the-handy-guide-to-owasp-for-web-development/TOP-10-Web-Application-Security-Risk.png">
+
 In this post, I'm going to dive into the OWASP Top 10 list and provide some code examples in JS to illustrate each risk. So if you're a web developer looking to improve your application's security, or just curious about the most critical risks facing web apps, keep reading!
 
 ## A01:2021-Broken Access Control
@@ -37,7 +39,7 @@ Essentially, you should provide users with the minimum amount of permissions nec
 
 Here's an example of a bad implementation of access control in an Express.js application:
 
-```
+```JS
   app.get('/admin', (req, res) => {
     if (req.user.role === 'admin') {
       res.render('admin-dashboard');
@@ -51,7 +53,7 @@ In this example, the server checks if the user role is 'admin' to grant access t
 
 Here's an example of a better implementation that includes proper access control:
 
-```
+```JS
 app.get('/admin', checkAdminRole, (req, res) => {
   res.render('admin-dashboard');
 });
@@ -77,7 +79,7 @@ Some common examples of cryptographic failures include weak or easily guessable 
 
 To avoid these types of issues, it's important for developers to stay up-to-date on the latest best practices and standards for cryptography, and to carefully review and test all cryptographic implementations in their web applications. By doing so, we can help ensure that our applications are as secure as possible and that sensitive information is protected from unauthorized access.
 
-## A03-2021:Injection
+## A03:2021-Injection
 
 Injection attacks occur when an attacker is able to inject untrusted data into a web application, which can then be interpreted as code and executed by the application's back-end server.
 
@@ -87,7 +89,7 @@ Other types of injection attacks include LDAP injection, XML injection, and comm
 
 To prevent injection attacks, it's important to validate and sanitize all user input, and to use prepared statements or parameterized queries when executing database or other back-end commands. This can help ensure that any injected data is treated as data rather than code, and cannot be executed by the application's back-end server.
 
-## A04-2021:Insecure Design
+## A04:2021-Insecure Design
 
 Insecure Design refers to the architecture flaws that are introduced into an application due to poor design choices.
 
@@ -101,4 +103,4 @@ To ensure a secure web application, follow these steps:
 - Thoroughly check the level of control offered by the Framework you are using, ensuring it aligns with your security requirements. <sup>Always read the documentation!</sup>
 - Design using Privilege Separation, implementing role-based access control and limiting access to sensitive resources.
 
-## A05-2021:Security Misconfiguration
+## A05:2021-Security Misconfiguration
