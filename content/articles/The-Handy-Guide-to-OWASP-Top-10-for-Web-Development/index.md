@@ -104,3 +104,14 @@ To ensure a secure web application, follow these steps:
 - Design using Privilege Separation, implementing role-based access control and limiting access to sensitive resources.
 
 ## A05:2021-Security Misconfiguration
+
+To understand a Security Misconfiguration we need to have in mind this 2 key concepts:
+
+1. A <b>Security Control</b> is a countermeasure designed to protect confidentiality, integrity and availibity of the application and its data. These controls can include access controls, authentication mechanisms, encryption protocols and so on.
+2. The <b>Misconfiguration</b> in an application introduces security vulnerabilities and it occurs because the configuration has not been hardened. This refers to the practice of leaving default configurations unchanged in a web application or system. Many software components and frameworks come with default settings that may not be the most secure configuration.
+
+There are many types to fall victim of a misconfiguration including leaving the default `User: Admin Password: root` or changing the configuration without understanding what you're doing.
+
+This step on the list is growing in numbers every year among applications because the developers makes small configuration changes without <u>reading the documentation</u> or doesn't know enough to understand the deployment environment and frameworks they are using.
+
+Avoid a security misconfiguration from happening verfying configurations, assuming inscure if you can't verify, read about hardening your code, know your frameworks and libraries, apply security settings available to you <sup>and read the documentation!</sup>.
