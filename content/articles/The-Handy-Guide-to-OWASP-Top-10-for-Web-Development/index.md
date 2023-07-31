@@ -133,3 +133,11 @@ Get your components from official trusted sources and use only features that are
 Lastly, it is essential to ensure the compatibility of updated libraries and to secure the configurations of your components to minimize vulnerabilities (see A05:2021-Security Misconfiguration).
 
 <u>In my experience</u> using WordPress, the lack of controlling this point it's one of the most risky things that happens to websites, but having everything updated makes the attackers harder to find a hole to sneak in.
+
+## A07:2021-Identification and Authentication Failures
+
+## A08:2021-Software and Data Integrity Failures
+
+## A09:2021-Security Logging and Monitoring Failures
+
+## A10:2021-Server-Side Request Forgery
