@@ -115,3 +115,21 @@ There are many types to fall victim of a misconfiguration including leaving the 
 This step on the list is growing in numbers every year among applications because the developers makes small configuration changes without <u>reading the documentation</u> or doesn't know enough to understand the deployment environment and frameworks they are using.
 
 Avoid a security misconfiguration from happening verfying configurations, assuming inscure if you can't verify, read about hardening your code, know your frameworks and libraries, apply security settings available to you <sup>and read the documentation!</sup>.
+
+## A06:2021-Vulnerable and Outdated Components
+
+Vulnerable and Outdated Components deals with the risks associated with using third-party libraries, frameworks, components and an Operative System that have known security vulnerabilities or are outdated and no longer supported.
+
+You are vulnerable when you don't know about the versions of all the components you use, both on the client-side and server-side. This includes both direct and nested dependencies.
+
+Additionally, running software that is outdated, unsupported, or vulnerable, such as the operating system, web/application server, database management system, APIs and other components puts you at risk. Always keep updated your software whenever possible and check the <b>End of Life</b> of a product.
+
+A good practice is to regularly scan for vulnerabilities and subscribing to security bulletins related to your tools is crucial for identifying potential attackers attempt to find and exploit weaknesses.
+
+Failure to fix or upgrade the underlying platform, frameworks, and dependencies in a timely manner exposes you to unnecessary risks, especially if patching is a slow, infrequent process. Schedule a quaterly or, even better, a monthly process to update all of your existing components in your chain of work.
+
+Get your components from official trusted sources and use only features that are necessary.
+
+Lastly, it is essential to ensure the compatibility of updated libraries and to secure the configurations of your components to minimize vulnerabilities (see A05:2021-Security Misconfiguration).
+
+<u>In my experience</u> using WordPress, the lack of controlling this point it's one of the most risky things that happens to websites, but having everything updated makes the attackers harder to find a hole to sneak in.
